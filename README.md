@@ -1,47 +1,76 @@
-# 👋 Hi, I'm Aliyah AlGhunaim
+# 🧪 OWASP Juice Shop Security Testing Project
 
-🧪 QA Engineer | 🔐 Cybersecurity Enthusiast  
-Focused on testing, analyzing, and improving software quality.
-
----
-
-## 🎓 Education
-B.Sc. in Computer Science  
-University of Hafr Al Batin (Expected June 2026)
+This project demonstrates security testing on the OWASP Juice Shop application, covering multiple real-world vulnerabilities.
 
 ---
 
-## 💼 Experience
-QA Trainee – Tuwaiq Academy  
-- Gained hands-on experience in manual and automation testing  
-- Applied ISTQB fundamentals and Agile testing practices  
-- Built E2E automation tests using Cypress (OrangeHRM)  
+## 🚀 Project Overview
+
+In this project, I performed manual security testing to identify common web vulnerabilities based on OWASP Top 10.
 
 ---
 
-## 🧠 Skills
-- Manual Testing & Test Case Design  
-- API Testing (Postman)  
-- Automation Testing (Cypress)  
-- Bug Reporting  
-- Basic SQL & Web Testing  
-- Security Testing Basics  
+## 🧨 Vulnerabilities Discovered
+
+- Cross-Site Scripting (XSS)  
+- SQL Injection  
+- Improper Error Handling  
+- Broken Access Control  
+- Privilege Escalation (Admin Access)  
 
 ---
 
-## 📂 Projects
-- Manual Testing Project (Login System)  
-- API Testing Project (Postman)  
-- Cypress Automation Project (OrangeHRM)  
-- Web Security Testing (OWASP Juice Shop)  
+## 📸 Evidence (Screenshots)
+
+### 🔴 Admin Access (Privilege Escalation)
+![Admin](screenshots/admin-access.png)
 
 ---
 
-## 🚀 Currently
-- Preparing for eJPT  
-- Practicing on TryHackMe & Juice Shop  
+### 🔴 Cross-Site Scripting (XSS)
+![XSS](screenshots/xss-attack.png)
 
 ---
 
-## 📫 Contact Me
-📧 alayh.smutairi@gmail.com
+### 🔴 SQL Injection
+![SQL](screenshots/sql-injection.png)
+
+---
+
+### 🟠 Improper Error Handling
+![Error](screenshots/error-handling.png)
+
+---
+
+### 🟠 Broken Access Control (403)
+![403](screenshots/access-control-403.png)
+
+---
+
+## 🧠 Key Learnings
+
+- Understanding real-world security vulnerabilities  
+- Exploiting XSS and SQL Injection  
+- Identifying access control weaknesses  
+- Analyzing application error handling issues  
+- Gaining hands-on experience with OWASP Top 10  
+
+---
+
+## 🧰 Tools Used
+
+- OWASP Juice Shop  
+- Browser DevTools  
+- Manual Testing Techniques  
+
+---
+
+## ⚠️ Disclaimer
+
+This project was conducted in a safe and legal testing environment (OWASP Juice Shop).
+
+---
+
+## 💡 Author
+
+Dvealiyah | QA & Security Tester 🚀
