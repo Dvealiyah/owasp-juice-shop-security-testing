@@ -28,22 +28,22 @@ In this project, I performed manual security testing to identify common web vuln
 ---
 
 ### 🔴 Cross-Site Scripting (XSS)
-![XSS](screenshots/xss-attack.png)
+![XSS](screenshots/xssattack.png)
 
 ---
 
 ### 🔴 SQL Injection
-![SQL](screenshots/sql-injection.png)
+![SQL](screenshots/sqlinjection.png)
 
 ---
 
 ### 🟠 Improper Error Handling
-![Error](screenshots/error-handling.png)
+![Error](screenshots/errorhandling.png)
 
 ---
 
 ### 🟠 Broken Access Control (403)
-![403](screenshots/access-control-403.png)
+![403](screenshots/accesscontrol-403.png)
 
 ---
 
