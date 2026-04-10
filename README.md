@@ -1,16 +1,17 @@
 # 🧪 OWASP Juice Shop Security Testing Project
 
-This project demonstrates security testing on the OWASP Juice Shop application, covering multiple real-world vulnerabilities.
+A hands-on security testing project performed on the OWASP Juice Shop application, focusing on identifying and exploiting real-world web vulnerabilities based on OWASP Top 10.
 
 ---
 
 ## 🚀 Project Overview
 
-In this project, I performed manual security testing to identify common web vulnerabilities based on OWASP Top 10.
+In this project, I conducted manual security testing on a deliberately vulnerable web application (OWASP Juice Shop).  
+The goal was to understand how common vulnerabilities work in real scenarios and how they can be exploited.
 
 ---
 
-## 🧨 Vulnerabilities Discovered
+## 🧨 Vulnerabilities Identified
 
 - Cross-Site Scripting (XSS)  
 - SQL Injection  
@@ -22,55 +23,55 @@ In this project, I performed manual security testing to identify common web vuln
 
 ## 📸 Evidence (Screenshots)
 
-### 🔴 Admin Access (Privilege Escalation)
-![Admin](screenshots/admin-access.png)
-
----
-
 ### 🔴 Cross-Site Scripting (XSS)
-![XSS](screenshots/xss-attack.png)
+![XSS Attack](./screenshots/xss-attack.png)  
+> Injected JavaScript was executed successfully, demonstrating a reflected XSS vulnerability.
 
 ---
 
 ### 🔴 SQL Injection
-![SQL](screenshots/sql-injection.png)
+![SQL Injection](./screenshots/sql-injection.png)  
+> SQL Injection payload allowed bypassing authentication mechanisms.
 
 ---
 
 ### 🟠 Improper Error Handling
-![Error](screenshots/error-handling.png)
+![Error Handling](./screenshots/error-handling.png)  
+> Application exposed internal error details, leading to potential information leakage.
 
 ---
 
 ### 🟠 Broken Access Control (403)
-![403](screenshots/access-control-403.png)
+![Access Control](./screenshots/access-control-403.png)  
+> Unauthorized access attempt resulted in a 403 response, highlighting access control behavior.
 
 ---
 
 ## 🧠 Key Learnings
 
-- Understanding real-world security vulnerabilities  
-- Exploiting XSS and SQL Injection  
-- Identifying access control weaknesses  
-- Analyzing application error handling issues  
-- Gaining hands-on experience with OWASP Top 10  
+- Gained hands-on experience with OWASP Top 10 vulnerabilities  
+- Practiced exploiting XSS and SQL Injection attacks  
+- Understood how access control flaws can expose sensitive areas  
+- Learned how poor error handling can leak critical system information  
+- Improved skills in manual security testing and analysis  
 
 ---
 
-## 🧰 Tools Used
+## 🧰 Tools & Techniques
 
 - OWASP Juice Shop  
-- Browser DevTools  
+- Browser Developer Tools  
 - Manual Testing Techniques  
 
 ---
 
 ## ⚠️ Disclaimer
 
-This project was conducted in a safe and legal testing environment (OWASP Juice Shop).
+This project was conducted in a safe and controlled environment for educational purposes only.
 
 ---
 
 ## 💡 Author
 
-Dvealiyah | QA & Security Tester 🚀
+Dvealiyah  
+QA & Security Tester 🚀
